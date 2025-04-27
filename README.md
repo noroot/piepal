@@ -9,7 +9,7 @@ A Python program to fetch and display PayPal transactions and subscription detai
 - Display transaction details such as **Transaction ID**, **Amount**, **Payer Email**, and **Payer Name**.
 - Fetch **Subscription Plan** details
 - Use the **PayPal Sandbox API** for testing by using `--sandbox`
-- Use verbose output to understand API calls
+- Use `--verbose` output to understand API calls
 
 ## Setup for usage
 
