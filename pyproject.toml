@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piepal"
+version = "0.1.0"
+description = "PiePAL - PayPal observability tool"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Dmitry Ro", email = "dmitry@falsetrue.io"}
+]
+dependencies = [
+    "python-dotenv==1.1.0",
+    "Requests==2.32.3",
+    "rich==14.0.0"
+]
+
+[project.scripts]
+piepal = "piepal:main"
